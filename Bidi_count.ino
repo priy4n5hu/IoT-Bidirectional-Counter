@@ -16,9 +16,9 @@
 #define OLED_RESET 13       // Reset pin # (or -1 if sharing Arduino reset pin)
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-char auth[] = "93upXQI6UmuVy_l73KOTtx7UqEem91hT";       
-char ssid[] = "yeezus";                       // Your WiFi credentials.
-char pass[] = "priyanshu";
+char auth[] = "your-auth-code";       
+char ssid[] = "youwifipass";                       // Your WiFi credentials.
+char pass[] = "yourwificode";
  
 #define inSensor 14 //D5
 #define outSensor 12 //D6
